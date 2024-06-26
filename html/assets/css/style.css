@@ -1,0 +1,113 @@
+@font-face {
+  font-family: justsignature;
+  src: url('../fonts/justsignature/JustSignature.woff');
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  color: #9e9e9e;
+  font-size: 12px;
+}
+
+#id-card {
+  position: relative;
+  display: none;
+  margin: 230px 50px 0 0;
+  float: right;
+  width: 457px;
+  height: 272px;
+  padding: 54px 17px 10px 144px;
+  background: url("../images/idcard.png");
+}
+
+#photo {
+  position: absolute;
+  left: 30px;
+  top: 70px;
+}
+
+#photo img {
+  width: 130px; /* Adjust the size of the image as needed */
+}
+
+#name-container {
+  position: absolute;
+  top: 70px;
+  left: 210px;
+}
+
+#name {
+  font-weight: bolder;
+  font-size: 18px;
+  color: #282828;
+}
+
+#details {
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+#dob-container{
+  position: absolute;
+  top: 27px; /* Adjust this value to move up or down from the bottom */
+  left: 210px; /* Adjust this value to move left or right from the right edge */
+}
+
+#dob {
+  font-weight: bolder;
+  font-size: 14px;
+  color: #282828;
+}
+
+
+
+#sex-container{
+  position: absolute;
+  top: 14px; /* Adjust this value to move up or down from the bottom */
+  left: 90px; /* Adjust this value to move left or right from the right edge */
+  
+}
+
+#sex {
+  font-weight: bolder;
+  font-size: 13px;
+  color: #282828;
+}
+
+
+#height-container{
+  position: absolute;
+  bottom: 2000px; /* Adjust this value to move up or down from the bottom */
+  right: 2000px; /* Adjust this value to move left or right from the right edge */
+}
+
+#licenses-container {
+  position: absolute;
+  top: 109px;
+  right: 33px;
+  width: 50px;
+}
+
+#signature-container {
+  position: absolute;
+  top: 225px; /* Adjust this value to move up or down from the bottom */
+  left: 190px; /* Adjust this value to move left or right from the right edge */
+}
+
+#signature {
+  color: #000000;
+  font-size: 19px;
+  text-transform: capitalize;
+  font-family: justsignature;
+}
