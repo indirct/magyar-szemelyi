@@ -2,4 +2,4 @@ Egy fivem modifikációs "ún. script", amelyaz jsfour-idcard-ot használva egy 
 
 
 ![screenshot](https://i.ibb.co/W53Xpx9/1gqe7hx.png)
-![screenshot](https://imgur.com/0bXnuA2)
+![screenshot](https://i.ibb.co/kXgn8vp/0bXnuA2.png)
